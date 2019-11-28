@@ -1,16 +1,17 @@
-.debug {
-  background-color: lightyellow;
+
+
+body {
+  background-color: white;
 }
 
-
-
-.debug .container {
-  border: 2px solid green;
+.container {
+  border: 1px solid black;
 }
 
-.debug .container [class*="col-"] {
-  border: 2px solid grey;
+.container [class*="col-"] {
+  border: 1px solid black;
   height: 300px;
+  background-color: lightpink;
 }
 
 * {
